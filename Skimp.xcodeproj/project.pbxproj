@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2716D54F201C655500A7E09B /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2716D54E201C655500A7E09B /* ListingViewController.swift */; };
+		2716D551201C6B4A00A7E09B /* sony_laptop.png in Resources */ = {isa = PBXBuildFile; fileRef = 2716D550201C6B4800A7E09B /* sony_laptop.png */; };
+		2716D553201C728F00A7E09B /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2716D552201C728F00A7E09B /* ItemDetailViewController.swift */; };
+		273592BB2015DB1700E95A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273592BA2015DB1700E95A49 /* AppDelegate.swift */; };
+		273592BD2015DB1700E95A49 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273592BC2015DB1700E95A49 /* HomeViewController.swift */; };
+		273592C02015DB1700E95A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273592BE2015DB1700E95A49 /* Main.storyboard */; };
+		273592C32015DB1700E95A49 /* Skimp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 273592C12015DB1700E95A49 /* Skimp.xcdatamodeld */; };
+		273592C52015DB1700E95A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273592C42015DB1700E95A49 /* Assets.xcassets */; };
+		273592C82015DB1700E95A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273592C62015DB1700E95A49 /* LaunchScreen.storyboard */; };
+		273592D32015DB1700E95A49 /* SkimpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273592D22015DB1700E95A49 /* SkimpTests.swift */; };
+		273592DE2015DB1700E95A49 /* SkimpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273592DD2015DB1700E95A49 /* SkimpUITests.swift */; };
+		273FF9B42017D75200FD4C26 /* furniture.png in Resources */ = {isa = PBXBuildFile; fileRef = 273FF9B32017D75100FD4C26 /* furniture.png */; };
+		273FF9B62017DBC000FD4C26 /* register_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 273FF9B52017DBBE00FD4C26 /* register_bg.png */; };
+		273FF9B82017DE1F00FD4C26 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = 273FF9B72017DE1E00FD4C26 /* list.png */; };
+		27599698201C9CBD00F08F9B /* BuyNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27599697201C9CBC00F08F9B /* BuyNowViewController.swift */; };
+		275DAAE02017BA260071C848 /* login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 275DAADF2017BA260071C848 /* login_bg.png */; };
+		275DAAE82017C17C0071C848 /* features_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 275DAAE72017C17B0071C848 /* features_text.png */; };
+		275DAAEA2017C53D0071C848 /* header2_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 275DAAE92017C53D0071C848 /* header2_bg.png */; };
+		277717722017981E00CCA493 /* misc.png in Resources */ = {isa = PBXBuildFile; fileRef = 277717712017981D00CCA493 /* misc.png */; };
+		27771775201799E800CCA493 /* toys.png in Resources */ = {isa = PBXBuildFile; fileRef = 27771773201799E800CCA493 /* toys.png */; };
+		2777177820179AF100CCA493 /* cars.png in Resources */ = {isa = PBXBuildFile; fileRef = 2777177720179AF100CCA493 /* cars.png */; };
+		2777177A20179CC900CCA493 /* books.png in Resources */ = {isa = PBXBuildFile; fileRef = 2777177920179CC900CCA493 /* books.png */; };
+		2777177C20179D5C00CCA493 /* clothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 2777177B20179D5C00CCA493 /* clothes.png */; };
+		2777177E20179DC000CCA493 /* tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 2777177D20179DC000CCA493 /* tech.png */; };
+		2777178020179E8A00CCA493 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 2777177F20179E8A00CCA493 /* music.png */; };
+		2777178220179F3E00CCA493 /* games.png in Resources */ = {isa = PBXBuildFile; fileRef = 2777178120179F3E00CCA493 /* games.png */; };
+		2778F14020188E740058CCFE /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2778F13F20188E740058CCFE /* FeaturesViewController.swift */; };
+		2778F14220188E820058CCFE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2778F14120188E820058CCFE /* LoginViewController.swift */; };
+		2778F14620188EB70058CCFE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2778F14520188EB70058CCFE /* RegisterViewController.swift */; };
+		277D3924201F3490003F5852 /* ItemsNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277D3923201F3490003F5852 /* ItemsNetworking.swift */; };
+		277D3927201F34FC003F5852 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277D3926201F34FC003F5852 /* GlobalData.swift */; };
+		277D3929201F352B003F5852 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277D3928201F352B003F5852 /* Constants.swift */; };
+		278A50372018A65F00E91E6A /* walk_through_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 278A50362018A65F00E91E6A /* walk_through_bg.png */; };
+		27D77A462021C0DE000AE2F0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D77A452021C0DE000AE2F0 /* Category.swift */; };
+		3376D76955BA8A54EAD69371 /* Pods_Skimp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70C3E28163603812DFEFDC0D /* Pods_Skimp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		273592CF2015DB1700E95A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273592AF2015DB1600E95A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273592B62015DB1600E95A49;
+			remoteInfo = Skimp;
+		};
+		273592DA2015DB1700E95A49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273592AF2015DB1600E95A49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273592B62015DB1600E95A49;
+			remoteInfo = Skimp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2716D54E201C655500A7E09B /* ListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		2716D550201C6B4800A7E09B /* sony_laptop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sony_laptop.png; sourceTree = "<group>"; };
+		2716D552201C728F00A7E09B /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		273592B72015DB1700E95A49 /* Skimp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skimp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		273592BA2015DB1700E95A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		273592BC2015DB1700E95A49 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		273592BF2015DB1700E95A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		273592C22015DB1700E95A49 /* Skimp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Skimp.xcdatamodel; sourceTree = "<group>"; };
+		273592C42015DB1700E95A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		273592C72015DB1700E95A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		273592C92015DB1700E95A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273592CE2015DB1700E95A49 /* SkimpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkimpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273592D22015DB1700E95A49 /* SkimpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkimpTests.swift; sourceTree = "<group>"; };
+		273592D42015DB1700E95A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273592D92015DB1700E95A49 /* SkimpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkimpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273592DD2015DB1700E95A49 /* SkimpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkimpUITests.swift; sourceTree = "<group>"; };
+		273592DF2015DB1700E95A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273FF9B32017D75100FD4C26 /* furniture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = furniture.png; sourceTree = "<group>"; };
+		273FF9B52017DBBE00FD4C26 /* register_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_bg.png; sourceTree = "<group>"; };
+		273FF9B72017DE1E00FD4C26 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		27599697201C9CBC00F08F9B /* BuyNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyNowViewController.swift; sourceTree = "<group>"; };
+		275DAADF2017BA260071C848 /* login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_bg.png; sourceTree = "<group>"; };
+		275DAAE72017C17B0071C848 /* features_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = features_text.png; sourceTree = "<group>"; };
+		275DAAE92017C53D0071C848 /* header2_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header2_bg.png; sourceTree = "<group>"; };
+		277717712017981D00CCA493 /* misc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = misc.png; sourceTree = "<group>"; };
+		27771773201799E800CCA493 /* toys.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toys.png; sourceTree = "<group>"; };
+		2777177720179AF100CCA493 /* cars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cars.png; sourceTree = "<group>"; };
+		2777177920179CC900CCA493 /* books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = books.png; sourceTree = "<group>"; };
+		2777177B20179D5C00CCA493 /* clothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothes.png; sourceTree = "<group>"; };
+		2777177D20179DC000CCA493 /* tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tech.png; sourceTree = "<group>"; };
+		2777177F20179E8A00CCA493 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		2777178120179F3E00CCA493 /* games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = games.png; sourceTree = "<group>"; };
+		2778F13F20188E740058CCFE /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
+		2778F14120188E820058CCFE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2778F14520188EB70058CCFE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		277D3923201F3490003F5852 /* ItemsNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsNetworking.swift; sourceTree = "<group>"; };
+		277D3926201F34FC003F5852 /* GlobalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
+		277D3928201F352B003F5852 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		278A50362018A65F00E91E6A /* walk_through_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = walk_through_bg.png; sourceTree = "<group>"; };
+		27D77A452021C0DE000AE2F0 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		40E41A79E68F302503A07D1A /* Pods-Skimp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skimp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Skimp/Pods-Skimp.release.xcconfig"; sourceTree = "<group>"; };
+		70C3E28163603812DFEFDC0D /* Pods_Skimp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skimp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81E202B2A5A6A5887D56DC65 /* Pods-Skimp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skimp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Skimp/Pods-Skimp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		273592B42015DB1600E95A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3376D76955BA8A54EAD69371 /* Pods_Skimp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273592CB2015DB1700E95A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273592D62015DB1700E95A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273592AE2015DB1600E95A49 = {
+			isa = PBXGroup;
+			children = (
+				277D3925201F34DC003F5852 /* Constants */,
+				27F67F62201F30950017B440 /* Networking */,
+				2778F13E20188E570058CCFE /* Controllers */,
+				273592B92015DB1700E95A49 /* Skimp */,
+				273592D12015DB1700E95A49 /* SkimpTests */,
+				273592DC2015DB1700E95A49 /* SkimpUITests */,
+				273592B82015DB1700E95A49 /* Products */,
+				EADB0684E7D45E786B480EBE /* Pods */,
+				F9DF687388228F0F26B41A92 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		273592B82015DB1700E95A49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				273592B72015DB1700E95A49 /* Skimp.app */,
+				273592CE2015DB1700E95A49 /* SkimpTests.xctest */,
+				273592D92015DB1700E95A49 /* SkimpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		273592B92015DB1700E95A49 /* Skimp */ = {
+			isa = PBXGroup;
+			children = (
+				273592EB2015DB6500E95A49 /* Images */,
+				273592BA2015DB1700E95A49 /* AppDelegate.swift */,
+				273592BE2015DB1700E95A49 /* Main.storyboard */,
+				273592C42015DB1700E95A49 /* Assets.xcassets */,
+				273592C62015DB1700E95A49 /* LaunchScreen.storyboard */,
+				273592C92015DB1700E95A49 /* Info.plist */,
+				273592C12015DB1700E95A49 /* Skimp.xcdatamodeld */,
+			);
+			path = Skimp;
+			sourceTree = "<group>";
+		};
+		273592D12015DB1700E95A49 /* SkimpTests */ = {
+			isa = PBXGroup;
+			children = (
+				273592D22015DB1700E95A49 /* SkimpTests.swift */,
+				273592D42015DB1700E95A49 /* Info.plist */,
+			);
+			path = SkimpTests;
+			sourceTree = "<group>";
+		};
+		273592DC2015DB1700E95A49 /* SkimpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				273592DD2015DB1700E95A49 /* SkimpUITests.swift */,
+				273592DF2015DB1700E95A49 /* Info.plist */,
+			);
+			path = SkimpUITests;
+			sourceTree = "<group>";
+		};
+		273592EB2015DB6500E95A49 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2716D550201C6B4800A7E09B /* sony_laptop.png */,
+				278A50362018A65F00E91E6A /* walk_through_bg.png */,
+				273FF9B72017DE1E00FD4C26 /* list.png */,
+				273FF9B52017DBBE00FD4C26 /* register_bg.png */,
+				273FF9B32017D75100FD4C26 /* furniture.png */,
+				275DAAE92017C53D0071C848 /* header2_bg.png */,
+				275DAAE72017C17B0071C848 /* features_text.png */,
+				275DAADF2017BA260071C848 /* login_bg.png */,
+				2777178120179F3E00CCA493 /* games.png */,
+				2777177F20179E8A00CCA493 /* music.png */,
+				2777177D20179DC000CCA493 /* tech.png */,
+				2777177B20179D5C00CCA493 /* clothes.png */,
+				2777177920179CC900CCA493 /* books.png */,
+				2777177720179AF100CCA493 /* cars.png */,
+				27771773201799E800CCA493 /* toys.png */,
+				277717712017981D00CCA493 /* misc.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2778F13E20188E570058CCFE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				273592BC2015DB1700E95A49 /* HomeViewController.swift */,
+				2778F13F20188E740058CCFE /* FeaturesViewController.swift */,
+				2778F14120188E820058CCFE /* LoginViewController.swift */,
+				2778F14520188EB70058CCFE /* RegisterViewController.swift */,
+				2716D54E201C655500A7E09B /* ListingViewController.swift */,
+				2716D552201C728F00A7E09B /* ItemDetailViewController.swift */,
+				27599697201C9CBC00F08F9B /* BuyNowViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		277D3925201F34DC003F5852 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				277D3926201F34FC003F5852 /* GlobalData.swift */,
+				277D3928201F352B003F5852 /* Constants.swift */,
+				27D77A452021C0DE000AE2F0 /* Category.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		27F67F62201F30950017B440 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				277D3923201F3490003F5852 /* ItemsNetworking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EADB0684E7D45E786B480EBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81E202B2A5A6A5887D56DC65 /* Pods-Skimp.debug.xcconfig */,
+				40E41A79E68F302503A07D1A /* Pods-Skimp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9DF687388228F0F26B41A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70C3E28163603812DFEFDC0D /* Pods_Skimp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		273592B62015DB1600E95A49 /* Skimp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273592E22015DB1700E95A49 /* Build configuration list for PBXNativeTarget "Skimp" */;
+			buildPhases = (
+				5C7B9EF5EA79F14A2DB6D579 /* [CP] Check Pods Manifest.lock */,
+				273592B32015DB1600E95A49 /* Sources */,
+				273592B42015DB1600E95A49 /* Frameworks */,
+				273592B52015DB1600E95A49 /* Resources */,
+				EFAD5CEB14BD1090A63075E6 /* [CP] Embed Pods Frameworks */,
+				E8EEB7E96A71FBF52565A2AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skimp;
+			productName = Skimp;
+			productReference = 273592B72015DB1700E95A49 /* Skimp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		273592CD2015DB1700E95A49 /* SkimpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273592E52015DB1700E95A49 /* Build configuration list for PBXNativeTarget "SkimpTests" */;
+			buildPhases = (
+				273592CA2015DB1700E95A49 /* Sources */,
+				273592CB2015DB1700E95A49 /* Frameworks */,
+				273592CC2015DB1700E95A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273592D02015DB1700E95A49 /* PBXTargetDependency */,
+			);
+			name = SkimpTests;
+			productName = SkimpTests;
+			productReference = 273592CE2015DB1700E95A49 /* SkimpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		273592D82015DB1700E95A49 /* SkimpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273592E82015DB1700E95A49 /* Build configuration list for PBXNativeTarget "SkimpUITests" */;
+			buildPhases = (
+				273592D52015DB1700E95A49 /* Sources */,
+				273592D62015DB1700E95A49 /* Frameworks */,
+				273592D72015DB1700E95A49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273592DB2015DB1700E95A49 /* PBXTargetDependency */,
+			);
+			name = SkimpUITests;
+			productName = SkimpUITests;
+			productReference = 273592D92015DB1700E95A49 /* SkimpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		273592AF2015DB1600E95A49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Peasy Ltd.";
+				TargetAttributes = {
+					273592B62015DB1600E95A49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					273592CD2015DB1700E95A49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 273592B62015DB1600E95A49;
+					};
+					273592D82015DB1700E95A49 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 273592B62015DB1600E95A49;
+					};
+				};
+			};
+			buildConfigurationList = 273592B22015DB1600E95A49 /* Build configuration list for PBXProject "Skimp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 273592AE2015DB1600E95A49;
+			productRefGroup = 273592B82015DB1700E95A49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				273592B62015DB1600E95A49 /* Skimp */,
+				273592CD2015DB1700E95A49 /* SkimpTests */,
+				273592D82015DB1700E95A49 /* SkimpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		273592B52015DB1600E95A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2716D551201C6B4A00A7E09B /* sony_laptop.png in Resources */,
+				273FF9B42017D75200FD4C26 /* furniture.png in Resources */,
+				275DAAE82017C17C0071C848 /* features_text.png in Resources */,
+				27771775201799E800CCA493 /* toys.png in Resources */,
+				275DAAEA2017C53D0071C848 /* header2_bg.png in Resources */,
+				2777178220179F3E00CCA493 /* games.png in Resources */,
+				2777177E20179DC000CCA493 /* tech.png in Resources */,
+				273592C82015DB1700E95A49 /* LaunchScreen.storyboard in Resources */,
+				275DAAE02017BA260071C848 /* login_bg.png in Resources */,
+				2777177C20179D5C00CCA493 /* clothes.png in Resources */,
+				278A50372018A65F00E91E6A /* walk_through_bg.png in Resources */,
+				273FF9B62017DBC000FD4C26 /* register_bg.png in Resources */,
+				273FF9B82017DE1F00FD4C26 /* list.png in Resources */,
+				2777177A20179CC900CCA493 /* books.png in Resources */,
+				2777178020179E8A00CCA493 /* music.png in Resources */,
+				277717722017981E00CCA493 /* misc.png in Resources */,
+				2777177820179AF100CCA493 /* cars.png in Resources */,
+				273592C52015DB1700E95A49 /* Assets.xcassets in Resources */,
+				273592C02015DB1700E95A49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273592CC2015DB1700E95A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273592D72015DB1700E95A49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C7B9EF5EA79F14A2DB6D579 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skimp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8EEB7E96A71FBF52565A2AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skimp/Pods-Skimp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFAD5CEB14BD1090A63075E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Skimp/Pods-Skimp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skimp/Pods-Skimp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273592B32015DB1600E95A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273592C32015DB1700E95A49 /* Skimp.xcdatamodeld in Sources */,
+				2778F14020188E740058CCFE /* FeaturesViewController.swift in Sources */,
+				2716D553201C728F00A7E09B /* ItemDetailViewController.swift in Sources */,
+				273592BD2015DB1700E95A49 /* HomeViewController.swift in Sources */,
+				277D3927201F34FC003F5852 /* GlobalData.swift in Sources */,
+				2778F14620188EB70058CCFE /* RegisterViewController.swift in Sources */,
+				2716D54F201C655500A7E09B /* ListingViewController.swift in Sources */,
+				277D3924201F3490003F5852 /* ItemsNetworking.swift in Sources */,
+				2778F14220188E820058CCFE /* LoginViewController.swift in Sources */,
+				27D77A462021C0DE000AE2F0 /* Category.swift in Sources */,
+				273592BB2015DB1700E95A49 /* AppDelegate.swift in Sources */,
+				27599698201C9CBD00F08F9B /* BuyNowViewController.swift in Sources */,
+				277D3929201F352B003F5852 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273592CA2015DB1700E95A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273592D32015DB1700E95A49 /* SkimpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273592D52015DB1700E95A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273592DE2015DB1700E95A49 /* SkimpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		273592D02015DB1700E95A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273592B62015DB1600E95A49 /* Skimp */;
+			targetProxy = 273592CF2015DB1700E95A49 /* PBXContainerItemProxy */;
+		};
+		273592DB2015DB1700E95A49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273592B62015DB1600E95A49 /* Skimp */;
+			targetProxy = 273592DA2015DB1700E95A49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		273592BE2015DB1700E95A49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				273592BF2015DB1700E95A49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		273592C62015DB1700E95A49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				273592C72015DB1700E95A49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		273592E02015DB1700E95A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		273592E12015DB1700E95A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		273592E32015DB1700E95A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E202B2A5A6A5887D56DC65 /* Pods-Skimp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CNFH77QV5;
+				INFOPLIST_FILE = Skimp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skimp.co.Skimp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		273592E42015DB1700E95A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E41A79E68F302503A07D1A /* Pods-Skimp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7CNFH77QV5;
+				INFOPLIST_FILE = Skimp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skimp.co.Skimp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		273592E62015DB1700E95A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkimpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skimp.co.SkimpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skimp.app/Skimp";
+			};
+			name = Debug;
+		};
+		273592E72015DB1700E95A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkimpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skimp.co.SkimpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skimp.app/Skimp";
+			};
+			name = Release;
+		};
+		273592E92015DB1700E95A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkimpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skimp.co.SkimpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skimp;
+			};
+			name = Debug;
+		};
+		273592EA2015DB1700E95A49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SkimpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.skimp.co.SkimpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skimp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273592B22015DB1600E95A49 /* Build configuration list for PBXProject "Skimp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273592E02015DB1700E95A49 /* Debug */,
+				273592E12015DB1700E95A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273592E22015DB1700E95A49 /* Build configuration list for PBXNativeTarget "Skimp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273592E32015DB1700E95A49 /* Debug */,
+				273592E42015DB1700E95A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273592E52015DB1700E95A49 /* Build configuration list for PBXNativeTarget "SkimpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273592E62015DB1700E95A49 /* Debug */,
+				273592E72015DB1700E95A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273592E82015DB1700E95A49 /* Build configuration list for PBXNativeTarget "SkimpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273592E92015DB1700E95A49 /* Debug */,
+				273592EA2015DB1700E95A49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		273592C12015DB1700E95A49 /* Skimp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				273592C22015DB1700E95A49 /* Skimp.xcdatamodel */,
+			);
+			currentVersion = 273592C22015DB1700E95A49 /* Skimp.xcdatamodel */;
+			path = Skimp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 273592AF2015DB1600E95A49 /* Project object */;
+}
